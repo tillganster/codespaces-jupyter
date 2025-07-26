@@ -6,7 +6,7 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",
-  "features": { "ghcr.io/devcontainers/features/nvidia-cuda:1": {
+  "features": { "ghcr.io/devcontainers/features/nvidia-cuda:2.0.0": {
       "installCudnn": true
     }},
   "customizations": {
